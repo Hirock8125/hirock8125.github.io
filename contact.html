@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - TMOCI</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #fcfcfc; color: #111; margin: 0; padding: 0; line-height: 1.6; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #fcfcfc; color: #111; margin: 0; padding: 0; line-height: 1.7; }
         header { border-bottom: 1px solid #eaeaea; padding: 2rem 10%; display: flex; justify-content: space-between; align-items: center; }
         .logo { font-size: 1.1rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
         nav a { margin-left: 2rem; text-decoration: none; color: #666; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; }
         nav a:hover, nav a.active { color: #000; }
-        main { padding: 5rem 10%; max-width: 800px; }
+        main { padding: 4rem 10% 8rem 10%; max-width: 800px; margin: 0 auto; }
         h1 { font-size: 2.2rem; font-weight: 400; letter-spacing: -0.02em; margin-bottom: 1.5rem; }
-        p { font-size: 1.1rem; color: #444; margin-bottom: 1.5rem; }
-        footer { border-top: 1px solid #eaeaea; padding: 2rem 10%; font-size: 0.8rem; color: #888; position: fixed; bottom: 0; width: 100%; background: #fcfcfc; }
+        p { font-size: 1.05rem; color: #333; margin-bottom: 1.5rem; text-align: justify; }
+        .contact-grid { margin-top: 2.5rem; border-top: 1px solid #eaeaea; padding-top: 2rem; }
+        .contact-item { margin-bottom: 1.5rem; }
+        .contact-title { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: #666; margin-bottom: 0.3rem; }
+        .contact-email { font-size: 1.1rem; color: #111; text-decoration: none; font-weight: 500; }
+        .contact-email:hover { text-decoration: underline; }
+        footer { border-top: 1px solid #eaeaea; padding: 2rem 10%; font-size: 0.8rem; color: #888; background: #fcfcfc; text-align: center; position: fixed; bottom: 0; width: 100%; box-sizing: border-box; }
     </style>
 </head>
 <body>
@@ -27,8 +32,30 @@
         </nav>
     </header>
     <main>
-        <h1>Communications</h1>
-        <p>For institutional inquiries, research access, and curatorial communications, please reach out via our dedicated channels.</p>
+        <h1>Institutional Contact</h1>
+        <p>The Museum of Contemporary Inquiry welcomes correspondence from international scholars, institutions, and practitioners engaging with our research mandate and archival framework.</p>
+        
+        <div class="contact-grid">
+            <div class="contact-item">
+                <div class="contact-title">General Inquiries & Administration</div>
+                <a href="mailto:tmoci@proton.me" class="contact-email">tmoci@proton.me</a>
+            </div>
+            
+            <div class="contact-item">
+                <div class="contact-title">Executive Direction</div>
+                <a href="mailto:direktorin@proton.me" class="contact-email">direktorin@proton.me</a>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-title">Curatorial Research Collective</div>
+                <a href="mailto:curatorialteam@proton.me" class="contact-email">curatorialteam@proton.me</a>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-title">Archival Documentation</div>
+                <a href="mailto:archivetmoci@proton.me" class="contact-email">archivetmoci@proton.me</a>
+            </div>
+        </div>
     </main>
     <footer>&copy; The Museum of Contemporary Inquiry. All rights reserved.</footer>
 </body>
